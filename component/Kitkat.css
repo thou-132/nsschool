@@ -1,0 +1,320 @@
+
+.background-radial-gradient {
+background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    );
+} 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+/* background-color: rgb(237, 247, 250); */
+}
+#header{
+ background-color:hsl(219, 37%, 93%)  ; 
+/* background-color: rgb(6 182 212); */
+}
+#concept{
+     background-color:hsl(0, 11%, 98%)  ; 
+    
+    }
+
+.app{
+    padding-top:60px ;
+    
+    
+}
+
+.app .list-1{
+    letter-spacing: 1px;
+   
+padding-bottom: 20px;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+line-height: 40px;
+list-style-type: lower-alpha;
+}
+.app .list-2{
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    list-style: lower-latin;
+
+}
+#concept{
+    /* background-color: azure; */
+}
+.design{
+    padding: 10px;
+    padding-top: 30px;
+  
+}
+.cen{
+    text-align: center;
+    position: relative;
+    /* top: 60px; */
+    padding-top:65px ;
+    padding-bottom:65px ;
+
+}
+.range{
+    width: 100%;
+}
+.teach{
+
+    background-color: rgb(6 182 212);
+ 
+    /* background-color: #AC1F62; */
+}
+.lesson{
+    /* background-color: #8B124B; */
+    background-color: rgb(15, 127, 147);
+
+    color: white;
+}
+.enquire{
+    background-color:hsl(218, 49%, 45%)  ;
+    padding: 8px;
+    color: white;
+    border: none;
+    padding-right:5px ;
+    font-size: 1.1em;
+}
+.no{
+    padding-left: 15px;
+}
+.lesson{
+    padding: 30px;
+}
+.lesson h6{
+    padding-left: 30px;
+}
+.lesson h4{
+    padding-left: 30px;
+}
+.lesson p{
+    padding-left: 30px;
+}
+.plus{
+    width: 10px;
+    height: 50px;
+    background-color: #f80c76;
+    border-radius: 18px;
+    padding:5px;
+
+}
+
+
+.orange{
+   
+    background-color: rgb(188, 24, 60);
+    padding: 7px;
+   /* padding-bottom: -3px; */
+    color: #fff;
+    border-radius: 5px;
+
+    
+}
+
+
+.blue{
+   
+    background-color: rgb(5, 181, 239);
+    padding: 7px;
+    border-radius: 5px;
+
+   /* padding-bottom: -3px; */
+    color: #fff;
+    
+}
+
+
+.yellow{
+    /* width: 80%; */
+    /* height: 35px; */
+    background-color: rgb(186, 186, 41);
+    padding: 7px;
+   /* padding-bottom: -3px; */
+    color: #fff;
+    border-radius: 5px;
+
+    
+}
+.yellow h6{
+    /* margin-top: -6px; */
+}
+
+.red{
+    /* width: 80%; */
+    /* height: 35px; */
+    background-color: rgb(13, 236, 240);
+    padding: 7px;
+   /* padding-bottom: -3px; */
+    color: #fff;
+    border-radius: 5px;
+
+    
+}
+.red h6{
+    /* margin-top: -6px; */
+}
+.orange1{
+    display: flex;
+    background-color:  #fffdfd;
+    padding: 15px;
+    box-shadow: 10px 10px 10px #ddcfcf;
+  justify-content: space-between;
+  align-items: center;
+}
+.king{
+    width: 80%;
+}
+
+@media (max-width:800px) {
+    .tech{
+        padding-right: 50px;
+        padding-left: 50px;
+     }
+    .lesson h6{
+        padding-left: 5px;
+}
+.lesson h4{
+    padding-left: 8px;
+}
+.lesson p{
+    padding-left: 8px; 
+
+}
+/* .middle1{
+    margin-bottom: 10px;
+position: absolute;
+top: 280px;
+background-color: #CF0D67;
+
+} */
+.nav{
+    .middle1{
+    
+    position: relative;
+      top: 5px;
+    background-color: #CF0D67;
+text-align: center;
+    border: none;
+    }
+    
+}
+.cen{
+     text-align: center; 
+     position: relative;
+    top: 0px; 
+}
+input{
+    /* border: 1px solid wheat; */
+   /* box-shadow: 10px 10px 10px 10px white; */
+   width: 100%;
+   height: 40px;
+   margin: 20px; 
+   background:#F2F2F2;
+   border: none;
+   padding: 10px;
+   padding-left: 10px;
+   
+ }
+
+}
+  /* .tech{
+    padding-right: 50px;
+    padding-left: 50px;
+    
+ }  */
+#contact2{
+    background-color: #fff5FAB5;
+   
+}
+#Middle{
+    /* background-color: #CF0D67; */
+    background-color: rgb(6 182 212);
+
+    position: relative;
+
+}
+.nav{
+    padding: 30px;
+}
+ .middle1{
+    margin-bottom: 10px;
+position: absolute;
+bottom: 60px;
+/* z-index: 2px; */
+ 
+ } 
+ .design{
+    background-color: #AB1E6121;
+ }
+ .faq{
+    background-color:   rgba(61, 137, 175, 0.998);
+
+}
+.faq1{
+    font-size: 2rem;
+
+}
+.answer{
+    border-left: 5px solid rgba(11, 80, 114, 0.979);
+    background-color: rgba(245, 245,245,0.756);
+}
+input{
+     /* border: 1px solid wheat; */
+    /* box-shadow: 10px 10px 10px 10px white; */
+    width: 100%;
+    height: 40px;
+    margin: 20px; 
+    background:#F2F2F2;
+    border: none;
+    padding: 10px;
+    padding-left: 10px;
+    
+  }
+   .form{
+    border: 1px solid whitesmoke;
+    box-shadow: 7px 7px 7px 7px wheat;
+    border-radius:20px ;
+  }
+  .men{
+   
+   padding-bottom: 130px;
+  }
+  
+  .sumit{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(71, 133, 187);
+    text-align: center;
+   
+  }
+  .sub{
+   
+    padding: 20px;
+   
+  }
+  .parent{
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .anathor{
+    display: flex;
+  }
